@@ -33,7 +33,7 @@ export default function MainNav() {
         <>
             <Navbar expand="lg" className="fixed-top bg-body-tertiary" expanded={isExpanded}>
                 <Container>
-                    <Navbar.Brand>Vladyslav Savchyn</Navbar.Brand>
+                    <Navbar.Brand>&quot;The Met&quot; exhibits</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={() => setExpanded(!isExpanded)} />
                     <Navbar.Collapse id="basic-navbar-nav">
                         {token ?
